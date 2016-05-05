@@ -11,6 +11,7 @@ static void user_procTask(os_event_t *events);
 
 static volatile os_timer_t some_timer;
 
+void user_rf_pre_init (void) {}
 
 void some_timerfunc(void *arg)
 {
